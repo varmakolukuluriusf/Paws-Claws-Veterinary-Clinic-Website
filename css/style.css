@@ -1,0 +1,631 @@
+/* Colors used
+#E9E3B4
+#F4ECC9
+#F39B6D
+#381D2A
+#3E6990
+*/
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+a.myanchor.sunsetred:active {      
+    background-color: #F39B6D !important;
+}
+
+a {
+    color: #212529 !important;
+    text-decoration: none !important;
+}
+a:hover {
+    color: #F39B6D !important;
+}
+
+.dropdown-item:hover {
+    background-color: #262829 !important;
+}
+
+/* home page styling */
+#home-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: #E9E3B4 ;
+}
+
+/* Page-Fonts */
+
+body, li, a {
+    font-family: "Quicksand", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font: 16px;
+    color: #381D2A;
+}
+
+li, a {
+    font-weight: 500;
+    color: #381D2A;
+  }
+
+.navbar-title {
+    font-size: 48px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #381D2A;
+  }
+
+/* End-Page-Fonts */
+
+/* Customize dropdown link colors */
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: #333; /* Normal color */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar-nav .dropdown-menu .dropdown-item:focus {
+    color: #3E6990; /* Hover and focus color */
+    background-color: transparent; /* Remove background color */
+    outline: none; /* Remove focus outline */
+    cursor: pointer;
+}
+
+/* Remove blue outline on click/focus */
+.navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar-nav .dropdown-menu .dropdown-item:active {
+    color: #3E6990; /* Active color */
+    background-color: transparent; /* Ensure background stays transparent */
+    outline: none; /* Remove focus outline */
+    box-shadow: none; /* Remove box shadow */
+}
+
+/* Style for disabled dropdown items */
+.dropdown-item.disabled {
+    color: #aaa; /* Gray color to indicate disabled */
+    pointer-events: none; /* Disable click events */
+    cursor: not-allowed; /* Change cursor to indicate non-clickable */
+    text-decoration: none; /* Remove underline */
+}
+
+
+/* Hide the default Bootstrap caret */
+.navbar-light .navbar-nav .dropdown-toggle::after {
+    display: none;
+}
+
+/* Adjust Font Awesome Icon for Dropdown */
+.navbar-light .navbar-nav .dropdown-toggle i {
+    margin-left: 4px; /* Space between text and icon */
+    font-size: 12px; /* Icon size */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth rotation and color change */
+    color: black; /* Default color */
+}
+
+/* Change icon on click (when dropdown is expanded) */
+.navbar-light .navbar-nav .dropdown-toggle[aria-expanded="true"] i {
+    transform: rotate(180deg); /* Rotate when expanded */
+    color: #3E6990; /* Change color when expanded */
+}
+
+/* Update text color for dropdown toggle when expanded */
+.navbar-light .navbar-nav .dropdown-toggle[aria-expanded="true"] {
+    color: #3E6990; /* Text color change on click */
+}
+
+/* Ensure Dropdown Items also Follow the Click Style */
+.dropdown-item {
+    color: black; /* Default color */
+    transition: color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    color: #3E6990; /* Change color on hover */
+    background-color: transparent; /* No background color on hover */
+}
+
+/* logo-image transformation */
+#logo-image-bg {
+    position: absolute;
+    opacity: 0.1;
+    left: 4em;
+    top: 1em;
+}
+#page-navigator {
+    width: 100vw;
+    padding: 0 2em;
+}
+.logo-image {
+    transform: rotate(115deg);
+}
+
+/* Caption Styling */
+
+.caption-block {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.caption-img {
+    width: 50vw;
+}
+
+
+.caption-title {
+    font-size: 8vh;
+    font-weight: 100;
+}
+
+.title-bld {
+    font-weight: 400;
+}
+
+.sub-caption{
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.button-block {
+    padding: 2em 0;
+}
+
+
+
+.check-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 4px;
+}
+
+.btn-box {
+    width: max-content;
+    height: max-content;
+}
+.c-btn {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0 5px;
+    color: #F39B6D;
+}
+.btn-img{
+    width: 26px;
+}
+
+.sub-caption-cont {
+    width: 24em;
+}
+
+/* home page styling END */
+
+/* about us page styling */
+
+#about-page {
+    height: max-content;
+    width: 100vw;
+    background-color: #F4ECC9 ;
+    display: flex;
+    padding: 1em 0;
+}
+
+.paws {
+    width: 1em;
+    transform: rotate(45deg);
+    opacity: 0.6;
+}
+
+.abs-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.abs-sub-cap-1, .abs-sub-cap-2 {
+    width: 55em;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 8px 0;
+}
+
+.abs-head{
+    padding: 0 6px;
+}
+.abs-banner {
+    padding-right: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abs-banner-img {
+    width: 6em;
+}
+.doc-block-1, .doc-block-2 {
+    display: flex;
+    padding: 1em 0;
+}
+
+.doc-1, .doc-2, .doc-3 {
+    display: flex;
+    align-items: flex-end;
+    padding: 1em 1em;
+}
+
+.doc-img {
+    width: 12vw;
+}
+
+.doc-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 24vw;
+    padding: 0 1em;
+}
+
+.doc-name {
+    font-weight: 500;
+}
+
+.doc-pos {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.doc-abt {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.abt-content {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.handler-img {
+    width: 36px;
+    padding: 0 10px;
+}
+
+#dev-page {
+    height: max-content;
+    width: 100vw;
+    display: flex;
+    padding: 1em 0;
+    background-color: #E9E3B4 ;
+}
+.tech-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2em;
+}
+.tech-img {
+    width: 4em;
+    padding: 6px;
+}
+/* about us page styling END */
+
+/* Blur effect for modal background */
+.modal-backdrop.show {
+    opacity: 0.8; /* Slightly visible backdrop */
+    backdrop-filter: blur(5px); /* Blurring the backdrop */
+}
+
+/* Custom styling for appointment form in modal */
+.appointment-form {
+    padding: 1rem;
+}
+
+.appointment-form .form-control {
+    margin-bottom: 15px;
+}
+
+.appointment-form .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Modal content adjustments */
+.modal-content {
+    padding: 1rem;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.modal-header {
+    width: 90%;
+    padding: 1em 3em;
+}
+
+/* Style for Scroll-to-Top Button Container */
+#scrollTopContainer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Hidden by default */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+/* Style for Scroll-to-Top Button */
+#scrollTopBtn {
+    width: 40px; /* Adjusted width */
+    height: 40px; /* Adjusted height */
+    border-radius: 50%;
+    background-color: #F39B6D; /* Custom button color */
+    color: white; /* Icon color */
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; /* Adjusted font size for icon */
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+#scrollTopBtn:hover {
+    background-color: #F39B6D; /* Darken on hover */
+    opacity: 1;
+}
+
+#scrollTopBtn i {
+    margin: auto;
+}
+
+/* Form Styling */
+.appointment-form .form-control {
+    margin-bottom: 15px;
+}
+
+.appointment-form .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* appointment-container */
+.appoint-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em 0;
+    background-color: #F4ECC9 ;
+}
+
+.appoint-form {
+    border-radius: 25px;
+    padding: 2em 3em;
+    width: 26em !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin-right: 2em;
+    background-color: #edcaa1;
+}
+
+/* Pricing Page Styles */
+.pricing-section {
+    padding: 3em 5em;
+    background: #E9E3B4;
+}
+.price-card {
+    border: none !important;
+}
+.card-header {
+    padding: 1rem;
+    border: none !important;
+}
+
+.card-body {
+    padding: 1rem;
+    background: #f3f1e3;
+}
+
+.card-body ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.card-body li {
+    padding: 0.5rem 0;
+}
+
+.card-footer {
+    border: none !important;
+}
+.card-body i {
+    color: #3E6990; /* Custom icon color */
+    margin-right: 8px;
+}
+
+
+
+.contact-card {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 2em;
+    border-radius: 15px;
+    width: 100vw !important;
+    padding: 1em 0;
+}
+
+.content-bg {
+    position: absolute;
+    width: 20em;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+}
+.form-control {
+    border: none !important;
+}
+
+/* appointment-table */
+.form-style{
+    display: flex;
+    flex-direction: column;
+}
+.f-in {
+    width: 20% !important;
+    padding: 1em;
+}
+.form-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blurred {
+    filter: blur(7px);
+    pointer-events: none; /* Prevent interaction */
+}
+
+
+.table-body {
+    background-color: #edcaa1;
+}
+tr th {
+    text-align: center;
+}
+
+/* Table styling */
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.modal-content {
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+/* Style for Scroll-to-Top Button END*/
+
+.ip {
+    background-color: #eb8e5b !important;
+}
+
+.ip-type {
+    opacity: 0.7 !important;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .sub-caption-cont {
+        width: 16em;
+    }
+    .caption-title {
+        font-size: 6vh;
+    }
+    .caption-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+    .abs-sub-cap-1, .abs-sub-cap-2 {
+        width: 26em;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .btn-primary {
+        font-size: 16px; /* Smaller button text on small screens */
+        padding: 8px 16px; /* Adjust padding */
+    }
+    .sub-caption-cont {
+        width: 12em;
+    }
+
+    .abs-sub-cap-1, .abs-sub-cap-2 {
+        width: 18em;
+        font-size: 10px;
+    }
+    .doc-block-1, .doc-block-2{
+        flex-direction: column;
+    }
+    .doc-1, .doc-2, .doc-3 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .doc-about{
+        align-items: center;
+        text-align: center;
+        width: 16em;
+    }
+    .abs-banner {
+        align-items: center;
+        width: 100vw;
+        padding: 0;
+    }
+    .abs-banner-img {
+        width: 1em;
+        transform: rotate(90deg);
+    }
+    .caption-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding: 0 !important;
+    }
+    .appoint-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .appoint-form {
+        width: 22em !important;
+        margin-right: 0;
+    }
+
+    .contact-card {
+        margin-left: 0;
+        border: none;
+        padding: 1em;
+    }
+    
+    .appoint-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
