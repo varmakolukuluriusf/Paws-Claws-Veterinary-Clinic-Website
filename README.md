@@ -27,3 +27,8 @@ Each page includes a navigation bar for accessing all sections of the website.
 - dashboard.html - Data visualizations related to pet care services.
 - appointments.html - Interface for booking appointments.
 - records.html - View and manage the list of appointments.
+
+## Contact
+
+- LinkedIn - [Yaswanth Kolukuluri](https://github.com/varmakolukuluriusf/Paws-Claws-Veterinary-Clinic-Website)
+- Email - varmakolukuluri@usf.edu
